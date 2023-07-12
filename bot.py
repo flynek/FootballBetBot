@@ -10,7 +10,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 
 logging.basicConfig(level=logging.INFO)
 storage = MemoryStorage()
-bot = Bot(token='6022329072:AAGUm7W5YskG5BA4X3MJK-5QMK4RxfFHXKk')
+bot = Bot(token='https://youtu.be/dQw4w9WgXcQ')
 dp = Dispatcher(bot, storage=storage)
 db = sqlite3.connect('server.db')
 cursor = db.cursor()
